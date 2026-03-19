@@ -11,8 +11,8 @@
 <br/>
 
 <!-- Social Badges -->
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Manish%20Borikar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/manishborikar92)
-[![Portfolio](https://img.shields.io/badge/Portfolio-manishborikar.dev-8B5CF6?style=for-the-badge&logo=safari&logoColor=white)](https://manishborikar.dev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Manish%20Borikar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/manishborikar)
+<!-- [![Portfolio](https://img.shields.io/badge/Portfolio-manishborikar.dev-8B5CF6?style=for-the-badge&logo=safari&logoColor=white)](https://manishborikar.dev) -->
 [![Email](https://img.shields.io/badge/Email-manishborikar92%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:manishborikar92@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-manishborikar92-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/manishborikar92)
 
