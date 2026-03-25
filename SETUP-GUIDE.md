@@ -382,8 +382,13 @@ Examples:
 ---
 
 ### ❌ Workflow fails with "Node.js 20 deprecated" warning
-**Cause:** An action in the workflow uses an old Node.js version.
-**Fix:** Make sure your `update_readme.yml` uses `crazy-max/ghaction-github-pages@v4` (not v3). Check the file and confirm the version tag is `@v4`.
+**Cause:** GitHub Actions is transitioning from Node.js 20 to Node.js 24. Node.js 20 will be completely removed in summer 2026.
+**Fix:** The provided workflow file uses the latest action versions that support Node.js 24:
+- `actions/checkout@v4` (supports Node.js 24)
+- `actions/setup-python@v5` (supports Node.js 24)
+- `crazy-max/ghaction-github-pages@v5` (supports Node.js 24)
+
+These versions are already configured in the workflow and will work without warnings. If you see warnings, ensure you're using the latest workflow file from this guide.
 
 ---
 
