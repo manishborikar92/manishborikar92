@@ -214,11 +214,20 @@ def render_projects(repos: list[dict], commit_counts: dict[str, int] | None = No
     if not repos:
         return "_No repositories found._"
 
-    # Emoji map by primary language
-    EMOJI = {
-        "Python": "🐍", "JavaScript": "🌐", "TypeScript": "💙",
-        "C++": "⚡", "Shell": "🖥️", "PowerShell": "🔷",
-        "HTML": "🌍", "CSS": "🎨", "Go": "🐹", "Rust": "🦀",
+    # Icon map by primary language - using shields.io logos for consistency
+    ICON_PREFIX = {
+        "Python": "![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)",
+        "JavaScript": "![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white)",
+        "TypeScript": "![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)",
+        "C++": "![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)",
+        "Shell": "![Shell](https://img.shields.io/badge/-Shell-89E051?style=flat-square&logo=gnubash&logoColor=white)",
+        "PowerShell": "![PowerShell](https://img.shields.io/badge/-PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)",
+        "HTML": "![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat-square&logo=html5&logoColor=white)",
+        "CSS": "![CSS](https://img.shields.io/badge/-CSS-1572B6?style=flat-square&logo=css3&logoColor=white)",
+        "Go": "![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)",
+        "Rust": "![Rust](https://img.shields.io/badge/-Rust-DEA584?style=flat-square&logo=rust&logoColor=white)",
+        "Java": "![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)",
+        "Ruby": "![Ruby](https://img.shields.io/badge/-Ruby-CC342D?style=flat-square&logo=ruby&logoColor=white)",
     }
 
     rows = []
@@ -233,18 +242,22 @@ def render_projects(repos: list[dict], commit_counts: dict[str, int] | None = No
             lang     = repo.get("language")
             stars    = repo.get("stargazers_count", 0)
             forks    = repo.get("forks_count", 0)
-            emoji    = EMOJI.get(lang, "📦")
-            lb       = lang_badge_inline(lang)
-            star_b   = f"![Stars](https://img.shields.io/github/stars/{USERNAME}/{name}?style=flat-square&color=f59e0b)"
-            fork_b   = f"![Forks](https://img.shields.io/github/forks/{USERNAME}/{name}?style=flat-square&color=6366f1)"
+            icon     = ICON_PREFIX.get(lang, "![Project](https://img.shields.io/badge/-Project-555555?style=flat-square&logo=github&logoColor=white)")
+            star_b   = f"![Stars](https://img.shields.io/github/stars/{USERNAME}/{name}?style=flat-square&color=f59e0b&logo=starship&logoColor=white)"
+            fork_b   = f"![Forks](https://img.shields.io/github/forks/{USERNAME}/{name}?style=flat-square&color=6366f1&logo=git&logoColor=white)"
             commits  = (commit_counts or {}).get(name, 0)
-            commit_b = (f"![Commits](https://img.shields.io/badge/my_commits-{commits}-7C3AED?style=flat-square&logo=git&logoColor=white)"
+            commit_b = (f"![Commits](https://img.shields.io/badge/commits-{commits}-7C3AED?style=flat-square&logo=git&logoColor=white)"
                         if commits else "")
-            view_b   = f"[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)]({url})"
+            view_b   = f"[![View](https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white)]({url})"
+            
+            # Build badge row with proper spacing
+            badges = [b for b in [icon, star_b, fork_b, commit_b] if b]
+            badge_row = " ".join(badges)
+            
             return (
-                f"### {emoji} [{name}]({url})\n"
+                f"### [{name}]({url})\n"
                 f"> {desc}\n\n"
-                f"{lb} {star_b} {fork_b} {commit_b}\n\n"
+                f"{badge_row}\n\n"
                 f"{view_b}"
             )
 
@@ -258,13 +271,6 @@ def render_projects(repos: list[dict], commit_counts: dict[str, int] | None = No
         )
 
     return "<table>\n" + "\n".join(rows) + "\n</table>"
-
-
-def render_last_updated() -> str:
-    ts = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    return (
-        f'<sub>🤖 Auto-updated by GitHub Actions · Last run: <b>{ts}</b></sub>'
-    )
 
 
 # ─── README rewriter ─────────────────────────────────────────────────────────
@@ -314,7 +320,6 @@ def main():
 
     content = replace_block(content, "SKILLS",       render_skills(lang_bytes))
     content = replace_block(content, "PROJECTS",     render_projects(best, commit_counts))
-    content = replace_block(content, "LAST_UPDATED", render_last_updated())
 
     with open(README_PATH, "w", encoding="utf-8") as f:
         f.write(content)

@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Manish%20Borikar&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Full%20Stack%20Developer%20%E2%80%A2%20AI%20Engineer%20%E2%80%A2%20Builder&descSize=16&descAlignY=60&animation=fadeIn" width="100%"/>
 
 <a href="https://github.com/manishborikar92">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&width=620&lines=Building+intelligent+systems+%F0%9F%A4%96;Turning+ideas+into+real+products+%F0%9F%9A%80;Full+Stack+%2B+AI+%3D+Unstoppable+%E2%9A%A1;Open+to+interesting+problems+%F0%9F%A7%A9" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&width=620&lines=Building+intelligent+systems;Turning+ideas+into+real+products;Full+Stack+%2B+AI+%3D+Unstoppable;Open+to+interesting+problems" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -28,7 +28,7 @@ class ManishBorikar:
     name        = "Manish Borikar"
     pronouns    = "he/him"
     role        = ["Full Stack Developer", "AI/ML Engineer", "Builder"]
-    location    = "India 🇮🇳"
+    location    = "India"
 
     focus       = [
         "AI-powered tools & automation",
@@ -37,12 +37,12 @@ class ManishBorikar:
     ]
 
     currently   = {
-        "building"  : "Vaelix — AI-powered product (stealth 🚀)",
+        "building"  : "Vaelix — AI-powered product (stealth mode)",
         "exploring" : "LLM agents, RAG pipelines & 3D data viz",
         "learning"  : "MLOps, fine-tuning & multimodal AI",
     }
 
-    fun_fact    = "I debug best with lo-fi music and black coffee ☕"
+    fun_fact    = "I debug best with lo-fi music and black coffee"
 ```
 
 ---
@@ -53,14 +53,6 @@ class ManishBorikar:
 <div align="center">
 
 ![Python](https://img.shields.io/badge/Python-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-CSS-1572B6?style=flat-square&logo=css3&logoColor=white)
-![Shell](https://img.shields.io/badge/Shell-Shell-89E051?style=flat-square&logo=gnubash&logoColor=white)
-![Makefile](https://img.shields.io/badge/Makefile-Makefile-427819?style=flat-square&logo=makefile&logoColor=white)
-![Dockerfile](https://img.shields.io/badge/Dockerfile-Dockerfile-384D54?style=flat-square&logo=docker&logoColor=white)
-![HTML](https://img.shields.io/badge/HTML-HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
-![Handlebars](https://img.shields.io/badge/Handlebars-Handlebars-555555?style=flat-square&logo=handlebars&logoColor=white)
 
 </div>
 <!-- SKILLS_END -->
@@ -74,66 +66,66 @@ class ManishBorikar:
 <tr>
 <td width="50%" valign="top">
 
-### 🐍 [Song-Recognition-Bot](https://github.com/manishborikar92/Song-Recognition-Bot)
+### [Song-Recognition-Bot](https://github.com/manishborikar92/Song-Recognition-Bot)
 > Send me an Instagram/YouTube link or a video/audio, and I'll send you the song file with YouTube & Spotify links! 🎶🚀 
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Stars](https://img.shields.io/github/stars/manishborikar92/Song-Recognition-Bot?style=flat-square&color=f59e0b) ![Forks](https://img.shields.io/github/forks/manishborikar92/Song-Recognition-Bot?style=flat-square&color=6366f1) ![Commits](https://img.shields.io/badge/my_commits-121-7C3AED?style=flat-square&logo=git&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Stars](https://img.shields.io/github/stars/manishborikar92/Song-Recognition-Bot?style=flat-square&color=f59e0b&logo=starship&logoColor=white) ![Forks](https://img.shields.io/github/forks/manishborikar92/Song-Recognition-Bot?style=flat-square&color=6366f1&logo=git&logoColor=white) ![Commits](https://img.shields.io/badge/commits-121-7C3AED?style=flat-square&logo=git&logoColor=white)
 
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/Song-Recognition-Bot)
-
-</td>
-<td width="50%" valign="top">
-
-### 🌐 [Smart-Healthcare](https://github.com/manishborikar92/Smart-Healthcare)
-> _No description provided._
-
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Stars](https://img.shields.io/github/stars/manishborikar92/Smart-Healthcare?style=flat-square&color=f59e0b) ![Forks](https://img.shields.io/github/forks/manishborikar92/Smart-Healthcare?style=flat-square&color=6366f1) ![Commits](https://img.shields.io/badge/my_commits-107-7C3AED?style=flat-square&logo=git&logoColor=white)
-
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/Smart-Healthcare)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🌐 [Pico](https://github.com/manishborikar92/Pico)
-> _No description provided._
-
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Stars](https://img.shields.io/github/stars/manishborikar92/Pico?style=flat-square&color=f59e0b) ![Forks](https://img.shields.io/github/forks/manishborikar92/Pico?style=flat-square&color=6366f1) ![Commits](https://img.shields.io/badge/my_commits-67-7C3AED?style=flat-square&logo=git&logoColor=white)
-
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/Pico)
+[![View](https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/Song-Recognition-Bot)
 
 </td>
 <td width="50%" valign="top">
 
-### 💙 [TinyLink](https://github.com/manishborikar92/TinyLink)
+### [Smart-Healthcare](https://github.com/manishborikar92/Smart-Healthcare)
 > _No description provided._
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Stars](https://img.shields.io/github/stars/manishborikar92/TinyLink?style=flat-square&color=f59e0b) ![Forks](https://img.shields.io/github/forks/manishborikar92/TinyLink?style=flat-square&color=6366f1) ![Commits](https://img.shields.io/badge/my_commits-35-7C3AED?style=flat-square&logo=git&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Stars](https://img.shields.io/github/stars/manishborikar92/Smart-Healthcare?style=flat-square&color=f59e0b&logo=starship&logoColor=white) ![Forks](https://img.shields.io/github/forks/manishborikar92/Smart-Healthcare?style=flat-square&color=6366f1&logo=git&logoColor=white) ![Commits](https://img.shields.io/badge/commits-107-7C3AED?style=flat-square&logo=git&logoColor=white)
 
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/TinyLink)
+[![View](https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/Smart-Healthcare)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 🌐 [Regimen](https://github.com/manishborikar92/Regimen)
+### [Pico](https://github.com/manishborikar92/Pico)
 > _No description provided._
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Stars](https://img.shields.io/github/stars/manishborikar92/Regimen?style=flat-square&color=f59e0b) ![Forks](https://img.shields.io/github/forks/manishborikar92/Regimen?style=flat-square&color=6366f1) ![Commits](https://img.shields.io/badge/my_commits-31-7C3AED?style=flat-square&logo=git&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Stars](https://img.shields.io/github/stars/manishborikar92/Pico?style=flat-square&color=f59e0b&logo=starship&logoColor=white) ![Forks](https://img.shields.io/github/forks/manishborikar92/Pico?style=flat-square&color=6366f1&logo=git&logoColor=white) ![Commits](https://img.shields.io/badge/commits-67-7C3AED?style=flat-square&logo=git&logoColor=white)
 
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/Regimen)
+[![View](https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/Pico)
 
 </td>
 <td width="50%" valign="top">
 
-### 🐍 [Recommendation-System](https://github.com/manishborikar92/Recommendation-System)
+### [TinyLink](https://github.com/manishborikar92/TinyLink)
 > _No description provided._
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Stars](https://img.shields.io/github/stars/manishborikar92/Recommendation-System?style=flat-square&color=f59e0b) ![Forks](https://img.shields.io/github/forks/manishborikar92/Recommendation-System?style=flat-square&color=6366f1) ![Commits](https://img.shields.io/badge/my_commits-22-7C3AED?style=flat-square&logo=git&logoColor=white)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Stars](https://img.shields.io/github/stars/manishborikar92/TinyLink?style=flat-square&color=f59e0b&logo=starship&logoColor=white) ![Forks](https://img.shields.io/github/forks/manishborikar92/TinyLink?style=flat-square&color=6366f1&logo=git&logoColor=white) ![Commits](https://img.shields.io/badge/commits-35-7C3AED?style=flat-square&logo=git&logoColor=white)
 
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/Recommendation-System)
+[![View](https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/TinyLink)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [Regimen](https://github.com/manishborikar92/Regimen)
+> _No description provided._
+
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Stars](https://img.shields.io/github/stars/manishborikar92/Regimen?style=flat-square&color=f59e0b&logo=starship&logoColor=white) ![Forks](https://img.shields.io/github/forks/manishborikar92/Regimen?style=flat-square&color=6366f1&logo=git&logoColor=white) ![Commits](https://img.shields.io/badge/commits-31-7C3AED?style=flat-square&logo=git&logoColor=white)
+
+[![View](https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/Regimen)
+
+</td>
+<td width="50%" valign="top">
+
+### [Recommendation-System](https://github.com/manishborikar92/Recommendation-System)
+> _No description provided._
+
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Stars](https://img.shields.io/github/stars/manishborikar92/Recommendation-System?style=flat-square&color=f59e0b&logo=starship&logoColor=white) ![Forks](https://img.shields.io/github/forks/manishborikar92/Recommendation-System?style=flat-square&color=6366f1&logo=git&logoColor=white) ![Commits](https://img.shields.io/badge/commits-22-7C3AED?style=flat-square&logo=git&logoColor=white)
+
+[![View](https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/Recommendation-System)
 
 </td>
 </tr>
@@ -171,11 +163,11 @@ class ManishBorikar:
 
 <div align="center">
 
-💬 Always open to:
+Always open to:
 
-`🤝 Open-source collaborations` &nbsp;&nbsp; `💡 Interesting AI/ML projects`
+`Open-source collaborations` &nbsp;&nbsp; `Interesting AI/ML projects`
 
-`🚀 Freelance & consulting` &nbsp;&nbsp; `🐛 Code reviews & feedback`
+`Freelance & consulting` &nbsp;&nbsp; `Code reviews & feedback`
 
 <br/>
 
@@ -195,10 +187,6 @@ class ManishBorikar:
 </picture>
 
 <br/>
-
-<!-- LAST_UPDATED_START -->
-<sub>🤖 Auto-updated by GitHub Actions · Last run: <b>2026-03-25 08:15 UTC</b></sub>
-<!-- LAST_UPDATED_END -->
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer" width="100%"/>
 
