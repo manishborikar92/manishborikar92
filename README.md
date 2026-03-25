@@ -74,22 +74,22 @@ class ManishBorikar:
 <tr>
 <td width="50%" valign="top">
 
-### 🐍 [pointviz](https://github.com/manishborikar92/pointviz)
-> Professional 3D point cloud visualizer with multi-format support (PCD, XYZ, LAS, PLY, OBJ) and conversion tools
+### 🐍 [Song-Recognition-Bot](https://github.com/manishborikar92/Song-Recognition-Bot)
+> Send me an Instagram/YouTube link or a video/audio, and I'll send you the song file with YouTube & Spotify links! 🎶🚀 
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Stars](https://img.shields.io/github/stars/manishborikar92/pointviz?style=flat-square&color=f59e0b) ![Forks](https://img.shields.io/github/forks/manishborikar92/pointviz?style=flat-square&color=6366f1)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Stars](https://img.shields.io/github/stars/manishborikar92/Song-Recognition-Bot?style=flat-square&color=f59e0b) ![Forks](https://img.shields.io/github/forks/manishborikar92/Song-Recognition-Bot?style=flat-square&color=6366f1) ![Commits](https://img.shields.io/badge/my_commits-121-7C3AED?style=flat-square&logo=git&logoColor=white)
 
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/pointviz)
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/Song-Recognition-Bot)
 
 </td>
 <td width="50%" valign="top">
 
-### 🖥️ [Git-and-Github-Commands](https://github.com/manishborikar92/Git-and-Github-Commands)
+### 🌐 [Smart-Healthcare](https://github.com/manishborikar92/Smart-Healthcare)
 > _No description provided._
 
-![Shell](https://img.shields.io/badge/Shell-89E051?style=flat-square&logo=gnubash&logoColor=white) ![Stars](https://img.shields.io/github/stars/manishborikar92/Git-and-Github-Commands?style=flat-square&color=f59e0b) ![Forks](https://img.shields.io/github/forks/manishborikar92/Git-and-Github-Commands?style=flat-square&color=6366f1)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Stars](https://img.shields.io/github/stars/manishborikar92/Smart-Healthcare?style=flat-square&color=f59e0b) ![Forks](https://img.shields.io/github/forks/manishborikar92/Smart-Healthcare?style=flat-square&color=6366f1) ![Commits](https://img.shields.io/badge/my_commits-107-7C3AED?style=flat-square&logo=git&logoColor=white)
 
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/Git-and-Github-Commands)
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/Smart-Healthcare)
 
 </td>
 </tr>
@@ -99,41 +99,41 @@ class ManishBorikar:
 ### 🌐 [Pico](https://github.com/manishborikar92/Pico)
 > _No description provided._
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Stars](https://img.shields.io/github/stars/manishborikar92/Pico?style=flat-square&color=f59e0b) ![Forks](https://img.shields.io/github/forks/manishborikar92/Pico?style=flat-square&color=6366f1)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Stars](https://img.shields.io/github/stars/manishborikar92/Pico?style=flat-square&color=f59e0b) ![Forks](https://img.shields.io/github/forks/manishborikar92/Pico?style=flat-square&color=6366f1) ![Commits](https://img.shields.io/badge/my_commits-67-7C3AED?style=flat-square&logo=git&logoColor=white)
 
 [![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/Pico)
 
 </td>
 <td width="50%" valign="top">
 
-### 🌐 [Smart-Healthcare](https://github.com/manishborikar92/Smart-Healthcare)
+### 💙 [TinyLink](https://github.com/manishborikar92/TinyLink)
 > _No description provided._
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Stars](https://img.shields.io/github/stars/manishborikar92/Smart-Healthcare?style=flat-square&color=f59e0b) ![Forks](https://img.shields.io/github/forks/manishborikar92/Smart-Healthcare?style=flat-square&color=6366f1)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Stars](https://img.shields.io/github/stars/manishborikar92/TinyLink?style=flat-square&color=f59e0b) ![Forks](https://img.shields.io/github/forks/manishborikar92/TinyLink?style=flat-square&color=6366f1) ![Commits](https://img.shields.io/badge/my_commits-35-7C3AED?style=flat-square&logo=git&logoColor=white)
 
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/Smart-Healthcare)
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/TinyLink)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 💙 [ForecastApp](https://github.com/manishborikar92/ForecastApp)
+### 🌐 [Regimen](https://github.com/manishborikar92/Regimen)
 > _No description provided._
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Stars](https://img.shields.io/github/stars/manishborikar92/ForecastApp?style=flat-square&color=f59e0b) ![Forks](https://img.shields.io/github/forks/manishborikar92/ForecastApp?style=flat-square&color=6366f1)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Stars](https://img.shields.io/github/stars/manishborikar92/Regimen?style=flat-square&color=f59e0b) ![Forks](https://img.shields.io/github/forks/manishborikar92/Regimen?style=flat-square&color=6366f1) ![Commits](https://img.shields.io/badge/my_commits-31-7C3AED?style=flat-square&logo=git&logoColor=white)
 
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/ForecastApp)
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/Regimen)
 
 </td>
 <td width="50%" valign="top">
 
-### 🌐 [Boilerplate](https://github.com/manishborikar92/Boilerplate)
+### 🐍 [Recommendation-System](https://github.com/manishborikar92/Recommendation-System)
 > _No description provided._
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Stars](https://img.shields.io/github/stars/manishborikar92/Boilerplate?style=flat-square&color=f59e0b) ![Forks](https://img.shields.io/github/forks/manishborikar92/Boilerplate?style=flat-square&color=6366f1)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Stars](https://img.shields.io/github/stars/manishborikar92/Recommendation-System?style=flat-square&color=f59e0b) ![Forks](https://img.shields.io/github/forks/manishborikar92/Recommendation-System?style=flat-square&color=6366f1) ![Commits](https://img.shields.io/badge/my_commits-22-7C3AED?style=flat-square&logo=git&logoColor=white)
 
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/Boilerplate)
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/Recommendation-System)
 
 </td>
 </tr>
@@ -197,7 +197,7 @@ class ManishBorikar:
 <br/>
 
 <!-- LAST_UPDATED_START -->
-<sub>🤖 Auto-updated by GitHub Actions · Last run: <b>2026-03-25 08:08 UTC</b></sub>
+<sub>🤖 Auto-updated by GitHub Actions · Last run: <b>2026-03-25 08:15 UTC</b></sub>
 <!-- LAST_UPDATED_END -->
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer" width="100%"/>
