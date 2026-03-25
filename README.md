@@ -221,14 +221,18 @@ class ManishBorikar:
 
 ---
 
-## `> trophies`
+## `> skills --core`
 
 <div align="center">
 
-<!-- Primary mirror (load-balanced volunteer deployment) -->
-<img src="https://github-profile-trophy-liard-delta.vercel.app/?username=manishborikar92&theme=darkhub&no-frame=true&no-bg=true&margin-w=6&column=7"
-     onerror="this.onerror=null;this.src='https://github-profile-trophy-fork-two.vercel.app/?username=manishborikar92&theme=darkhub&no-frame=true&no-bg=true&margin-w=6&column=7'"
-     alt="GitHub Trophies" />
+![Python](https://img.shields.io/badge/Python-Expert-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-Advanced-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-Advanced-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-Advanced-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![FastAPI](https://img.shields.io/badge/FastAPI-Advanced-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-Intermediate-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Intermediate-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-Intermediate-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 
 </div>
 
