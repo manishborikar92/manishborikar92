@@ -83,6 +83,16 @@ class ManishBorikar:
 <tr>
 <td width="50%" valign="top">
 
+### [EnRouteAR](https://github.com/manishborikar92/EnRouteAR)
+> _No description provided._
+
+![CSS](https://img.shields.io/badge/-CSS-1572B6?style=flat-square&logo=css3&logoColor=white) ![Stars](https://img.shields.io/github/stars/manishborikar92/EnRouteAR?style=flat-square&color=f59e0b&logo=starship&logoColor=white) ![Forks](https://img.shields.io/github/forks/manishborikar92/EnRouteAR?style=flat-square&color=6366f1&logo=git&logoColor=white) ![Commits](https://img.shields.io/badge/commits-287-7C3AED?style=flat-square&logo=git&logoColor=white)
+
+[![View](https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/EnRouteAR)
+
+</td>
+<td width="50%" valign="top">
+
 ### [Song-Recognition-Bot](https://github.com/manishborikar92/Song-Recognition-Bot)
 > Send me an Instagram/YouTube link or a video/audio, and I'll send you the song file with YouTube & Spotify links! 🎶🚀 
 
@@ -91,28 +101,30 @@ class ManishBorikar:
 [![View](https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/Song-Recognition-Bot)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### [Smart-Healthcare](https://github.com/manishborikar92/Smart-Healthcare)
 > _No description provided._
 
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Stars](https://img.shields.io/github/stars/manishborikar92/Smart-Healthcare?style=flat-square&color=f59e0b&logo=starship&logoColor=white) ![Forks](https://img.shields.io/github/forks/manishborikar92/Smart-Healthcare?style=flat-square&color=6366f1&logo=git&logoColor=white) ![Commits](https://img.shields.io/badge/commits-107-7C3AED?style=flat-square&logo=git&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Stars](https://img.shields.io/github/stars/manishborikar92/Smart-Healthcare?style=flat-square&color=f59e0b&logo=starship&logoColor=white) ![Forks](https://img.shields.io/github/forks/manishborikar92/Smart-Healthcare?style=flat-square&color=6366f1&logo=git&logoColor=white) ![Commits](https://img.shields.io/badge/commits-119-7C3AED?style=flat-square&logo=git&logoColor=white)
 
 [![View](https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/Smart-Healthcare)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### [Pico](https://github.com/manishborikar92/Pico)
 > _No description provided._
 
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Stars](https://img.shields.io/github/stars/manishborikar92/Pico?style=flat-square&color=f59e0b&logo=starship&logoColor=white) ![Forks](https://img.shields.io/github/forks/manishborikar92/Pico?style=flat-square&color=6366f1&logo=git&logoColor=white) ![Commits](https://img.shields.io/badge/commits-67-7C3AED?style=flat-square&logo=git&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Stars](https://img.shields.io/github/stars/manishborikar92/Pico?style=flat-square&color=f59e0b&logo=starship&logoColor=white) ![Forks](https://img.shields.io/github/forks/manishborikar92/Pico?style=flat-square&color=6366f1&logo=git&logoColor=white) ![Commits](https://img.shields.io/badge/commits-68-7C3AED?style=flat-square&logo=git&logoColor=white)
 
 [![View](https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/Pico)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### [TinyLink](https://github.com/manishborikar92/TinyLink)
@@ -123,8 +135,6 @@ class ManishBorikar:
 [![View](https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/TinyLink)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### [Regimen](https://github.com/manishborikar92/Regimen)
@@ -133,16 +143,6 @@ class ManishBorikar:
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Stars](https://img.shields.io/github/stars/manishborikar92/Regimen?style=flat-square&color=f59e0b&logo=starship&logoColor=white) ![Forks](https://img.shields.io/github/forks/manishborikar92/Regimen?style=flat-square&color=6366f1&logo=git&logoColor=white) ![Commits](https://img.shields.io/badge/commits-31-7C3AED?style=flat-square&logo=git&logoColor=white)
 
 [![View](https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/Regimen)
-
-</td>
-<td width="50%" valign="top">
-
-### [Recommendation-System](https://github.com/manishborikar92/Recommendation-System)
-> _No description provided._
-
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Stars](https://img.shields.io/github/stars/manishborikar92/Recommendation-System?style=flat-square&color=f59e0b&logo=starship&logoColor=white) ![Forks](https://img.shields.io/github/forks/manishborikar92/Recommendation-System?style=flat-square&color=6366f1&logo=git&logoColor=white) ![Commits](https://img.shields.io/badge/commits-22-7C3AED?style=flat-square&logo=git&logoColor=white)
-
-[![View](https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/Recommendation-System)
 
 </td>
 </tr>
