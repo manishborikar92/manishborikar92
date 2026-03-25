@@ -225,7 +225,10 @@ class ManishBorikar:
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=manishborikar92&theme=darkhub&no-frame=true&no-bg=true&margin-w=6&column=7" alt="GitHub Trophies" />
+<!-- Primary mirror (load-balanced volunteer deployment) -->
+<img src="https://github-profile-trophy-liard-delta.vercel.app/?username=manishborikar92&theme=darkhub&no-frame=true&no-bg=true&margin-w=6&column=7"
+     onerror="this.onerror=null;this.src='https://github-profile-trophy-fork-two.vercel.app/?username=manishborikar92&theme=darkhub&no-frame=true&no-bg=true&margin-w=6&column=7'"
+     alt="GitHub Trophies" />
 
 </div>
 
@@ -282,7 +285,7 @@ class ManishBorikar:
 
 <div align="center">
 
-<!-- Snake animation -->
+<!-- Contribution Snake — renders after the GitHub Action runs once -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manishborikar92/manishborikar92/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manishborikar92/manishborikar92/output/github-snake.svg" />
