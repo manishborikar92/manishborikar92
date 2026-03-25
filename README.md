@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Manish%20Borikar&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Full%20Stack%20Developer%20%E2%80%A2%20AI%20Engineer%20%E2%80%A2%20Builder&descSize=16&descAlignY=60&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Manish%20Borikar&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Software%20Engineer%20%E2%80%A2%20AI/ML%20Developer%20%E2%80%A2%20Builder&descSize=16&descAlignY=60&animation=fadeIn" width="100%"/>
 
 <a href="https://github.com/manishborikar92">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&width=620&lines=Building+intelligent+systems;Turning+ideas+into+real+products;Full+Stack+%2B+AI+%3D+Unstoppable;Open+to+interesting+problems" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&width=620&lines=Building+intelligent+systems;Turning+ideas+into+real+products;Robotics+%2B+AI+%3D+Unstoppable;Open+to+interesting+problems" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -27,22 +27,31 @@
 class ManishBorikar:
     name        = "Manish Borikar"
     pronouns    = "he/him"
-    role        = ["Full Stack Developer", "AI/ML Engineer", "Builder"]
+    role        = ["Software Engineer", "AI/ML Developer", "Builder"]
     location    = "India"
-
-    focus       = [
-        "AI-powered tools & automation",
-        "Computer vision & perception systems",
-        "Scalable full-stack web applications",
+    
+    building    = [
+        "PICO: Emotionally-aware AI companion with vision & voice",
+        "Smart Healthcare AI: ResNet-50 skin condition classifier",
+        "EnRouteAR: AR navigation and location-based services",
+        "Song Recognition Bot: Instagram/YouTube audio identification",
     ]
-
+    
+    focus       = [
+        "Full-stack web development (Next.js, React, TypeScript)",
+        "Machine learning & computer vision (TensorFlow, OpenCV)",
+        "3D perception & robotics (Open3D, ROS, FAST-LIO, Livox)",
+        "Edge AI & embedded systems (NVIDIA Jetson Nano, ESP32, Linux)",
+    ]
+    
     currently   = {
-        "building"  : "Vaelix — AI-powered product (stealth mode)",
-        "exploring" : "LLM agents, RAG pipelines & 3D data viz",
-        "learning"  : "MLOps, fine-tuning & multimodal AI",
+        "working_on" : "AI companion robotics & 3D perception systems",
+        "exploring"  : "SLAM algorithms, point cloud processing & AR navigation",
+        "learning"   : "ROS2, LiDAR-inertial odometry & edge AI deployment",
     }
-
-    fun_fact    = "I debug best with lo-fi music and black coffee"
+    
+    philosophy  = "Build it, ship it, improve it — code speaks louder than plans"
+    fun_fact    = "I turn coffee and lo-fi beats into working software"
 ```
 
 ---
