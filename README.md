@@ -199,7 +199,7 @@ class ManishBorikar:
 <div align="center">
 
 <a href="https://github.com/manishborikar92">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=manishborikar92&show_icons=true&theme=midnight-purple&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=A78BFA&icon_color=A78BFA&text_color=c9d1d9" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=manishborikar92&show_icons=true&theme=midnight-purple&count_private=true&hide_border=true&bg_color=0d1117&title_color=A78BFA&icon_color=A78BFA&text_color=c9d1d9" />
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=manishborikar92&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=A78BFA&text_color=c9d1d9&langs_count=8" />
 </a>
 
@@ -221,6 +221,16 @@ class ManishBorikar:
 
 ---
 
+## `> trophies`
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=manishborikar92&theme=darkhub&no-frame=true&no-bg=true&margin-w=6&column=7" alt="GitHub Trophies" />
+
+</div>
+
+---
+
 ## `> achievements --highlights`
 
 <div align="center">
@@ -230,7 +240,7 @@ class ManishBorikar:
 | 🎵 | Built a **Song Recognition Bot** that IDs tracks from raw audio & social media links |
 | 🌐 | Engineered **pointviz** — a professional LiDAR & 3D point cloud visualization toolkit |
 | 🤖 | Curated **Prompts-Library** — a developer-focused AI prompt management system |
-| 🧑‍💻 | **479+ contributions** in the last year — consistently shipping |
+| 🧑‍💻 | **783+ total contributions** since Mar 2022 — consistently shipping |
 | 🔭 | Currently building **Vaelix** — an AI-powered product in stealth mode |
 | 🎓 | Active learner — exploring LLM agents, multimodal AI & 3D spatial intelligence |
 
