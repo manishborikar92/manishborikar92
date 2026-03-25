@@ -382,13 +382,13 @@ Examples:
 ---
 
 ### ❌ Workflow fails with "Node.js 20 deprecated" warning
-**Cause:** GitHub Actions is transitioning from Node.js 20 to Node.js 24. Node.js 20 will be completely removed in summer 2026.
+**Cause:** GitHub Actions is transitioning from Node.js 20 to Node.js 24. Node.js 20 will be completely removed on September 16, 2026.
 **Fix:** The provided workflow file uses the latest action versions that support Node.js 24:
-- `actions/checkout@v4` (supports Node.js 24)
-- `actions/setup-python@v5` (supports Node.js 24)
-- `crazy-max/ghaction-github-pages@v5` (supports Node.js 24)
+- `actions/checkout@v6` (Node.js 24 runtime - requires Actions Runner v2.327.1+)
+- `actions/setup-python@v6` (Node.js 24 runtime - requires Actions Runner v2.327.1+)
+- `crazy-max/ghaction-github-pages@v5` (Node.js 24 runtime - requires Actions Runner v2.327.1+)
 
-These versions are already configured in the workflow and will work without warnings. If you see warnings, ensure you're using the latest workflow file from this guide.
+These versions are already configured in the workflow and will work without warnings. GitHub-hosted runners already meet the minimum version requirement.
 
 ---
 
