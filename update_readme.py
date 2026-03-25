@@ -93,37 +93,67 @@ def fetch_repos() -> list[dict]:
     ]
 
 
-# ─── Score repos ─────────────────────────────────────────────────────────────
+# ─── Commit-count scoring ─────────────────────────────────────────────────────
 
-def repo_score(repo: dict) -> float:
+def fetch_commit_count(repo_name: str) -> int:
     """
-    Composite score that balances popularity with recency.
-      • stars   × 3  (strongest signal of quality)
-      • watchers× 1
-      • forks   × 2
-      • recency       (days since last push, decays over 365 days)
+    Return the number of commits the authenticated user has made to repo_name.
+
+    Uses the "Link header last-page" trick:
+      GET /repos/{owner}/{repo}/commits?author={user}&per_page=1
+    GitHub paginates and puts `rel="last"` in the Link header.
+    Parsing the `page=N` from that URL gives the total commit count
+    in a single API call — no need to paginate through all commits.
+
+    Falls back to 0 on any error (private repo, empty repo, rate-limit, etc.)
     """
-    pushed   = repo.get("pushed_at") or repo.get("updated_at") or ""
-    recency  = 0.0
-    if pushed:
-        try:
-            age_days = (datetime.now(timezone.utc) -
-                        datetime.fromisoformat(pushed.replace("Z", "+00:00"))
-                        ).days
-            recency = max(0.0, 1.0 - age_days / 365) * 10
-        except ValueError:
-            pass
+    url = f"https://api.github.com/repos/{USERNAME}/{repo_name}/commits"
+    try:
+        r = requests.get(
+            url,
+            headers=_headers(),
+            params={"author": USERNAME, "per_page": 1},
+            timeout=15,
+        )
+        if r.status_code != 200:
+            return 0
 
-    return (
-        repo.get("stargazers_count", 0) * 3 +
-        repo.get("watchers_count",   0) * 1 +
-        repo.get("forks_count",      0) * 2 +
-        recency
-    )
+        link = r.headers.get("Link", "")
+        if not link:
+            # Only one page — check body to determine if 0 or 1 commit
+            return len(r.json()) if isinstance(r.json(), list) else 0
+
+        # Extract page number from the `last` rel link
+        # Format: <https://api.github.com/...?page=42>; rel="last"
+        match = re.search(r'[?&]page=(\d+)>;\s*rel="last"', link)
+        return int(match.group(1)) if match else 1
+
+    except (requests.RequestException, ValueError, AttributeError):
+        return 0
 
 
-def top_repos(repos: list[dict], n: int = 6) -> list[dict]:
-    return sorted(repos, key=repo_score, reverse=True)[:n]
+def fetch_commit_counts(repos: list[dict]) -> dict[str, int]:
+    """
+    Return {repo_name: commit_count} for every repo.
+    Logs progress so the Actions log is readable.
+    """
+    counts: dict[str, int] = {}
+    total = len(repos)
+    for i, repo in enumerate(repos, 1):
+        name = repo["name"]
+        count = fetch_commit_count(name)
+        counts[name] = count
+        print(f"   [{i:>2}/{total}] {name}: {count} commits")
+    return counts
+
+
+def top_repos(repos: list[dict], commit_counts: dict[str, int], n: int = 6) -> list[dict]:
+    """Rank repos purely by number of commits the user has authored."""
+    return sorted(
+        repos,
+        key=lambda r: commit_counts.get(r["name"], 0),
+        reverse=True,
+    )[:n]
 
 
 # ─── Fetch aggregated languages ───────────────────────────────────────────────
@@ -179,7 +209,7 @@ def lang_badge_inline(language: str | None) -> str:
     return f"![{language}](https://img.shields.io/badge/{language.replace(' ', '_')}-{colour}?style=flat-square&logo={logo}&logoColor=white)"
 
 
-def render_projects(repos: list[dict]) -> str:
+def render_projects(repos: list[dict], commit_counts: dict[str, int] | None = None) -> str:
     """Render top repos as a Markdown table (2-column card layout)."""
     if not repos:
         return "_No repositories found._"
@@ -207,11 +237,14 @@ def render_projects(repos: list[dict]) -> str:
             lb       = lang_badge_inline(lang)
             star_b   = f"![Stars](https://img.shields.io/github/stars/{USERNAME}/{name}?style=flat-square&color=f59e0b)"
             fork_b   = f"![Forks](https://img.shields.io/github/forks/{USERNAME}/{name}?style=flat-square&color=6366f1)"
+            commits  = (commit_counts or {}).get(name, 0)
+            commit_b = (f"![Commits](https://img.shields.io/badge/my_commits-{commits}-7C3AED?style=flat-square&logo=git&logoColor=white)"
+                        if commits else "")
             view_b   = f"[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)]({url})"
             return (
                 f"### {emoji} [{name}]({url})\n"
                 f"> {desc}\n\n"
-                f"{lb} {star_b} {fork_b}\n\n"
+                f"{lb} {star_b} {fork_b} {commit_b}\n\n"
                 f"{view_b}"
             )
 
@@ -261,10 +294,14 @@ def main():
     repos = fetch_repos()
     print(f"   Found {len(repos)} public, non-fork repos.")
 
-    print("🏆 Selecting top 6 repos…")
-    best = top_repos(repos, n=6)
+    print("🔢 Counting your commits per repo (this takes ~1s per repo)…")
+    commit_counts = fetch_commit_counts(repos)
+
+    print("🏆 Selecting top 6 repos by commit count…")
+    best = top_repos(repos, commit_counts, n=6)
     for r in best:
-        print(f"   • {r['name']}  (score={repo_score(r):.1f})")
+        n = commit_counts.get(r["name"], 0)
+        print(f"   • {r['name']}  ({n} commits)")
 
     print("📊 Aggregating language bytes…")
     lang_bytes = fetch_language_bytes(repos)
@@ -276,7 +313,7 @@ def main():
         content = f.read()
 
     content = replace_block(content, "SKILLS",       render_skills(lang_bytes))
-    content = replace_block(content, "PROJECTS",     render_projects(best))
+    content = replace_block(content, "PROJECTS",     render_projects(best, commit_counts))
     content = replace_block(content, "LAST_UPDATED", render_last_updated())
 
     with open(README_PATH, "w", encoding="utf-8") as f:
