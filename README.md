@@ -47,7 +47,7 @@ class ManishBorikar:
 
 ---
 
-## `> tech_stack --dynamic`
+## `> tech_stack --core`
 
 <!-- SKILLS_START -->
 <div align="center">
@@ -67,7 +67,7 @@ class ManishBorikar:
 
 ---
 
-## `> projects --top6`
+## `> projects --featured`
 
 <!-- PROJECTS_START -->
 <table>

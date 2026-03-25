@@ -258,8 +258,8 @@ Go to `https://github.com/manishborikar92`
 You should now see:
 - ✅ Animated wave banner at the top
 - ✅ Typing animation
-- ✅ `> tech_stack --dynamic` section filled with real language badges
-- ✅ `> projects --top6` section showing your 6 most-committed repos as cards
+- ✅ `> tech_stack --core` section filled with real language badges
+- ✅ `> projects --featured` section showing your 6 most-committed repos as cards
 - ✅ GitHub stats and streak cards
 - ✅ Contribution activity graph
 - ✅ Contribution snake animation (from the `output` branch)
