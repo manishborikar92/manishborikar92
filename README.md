@@ -63,8 +63,8 @@ class ManishBorikar:
 
 ![Python](https://img.shields.io/badge/Python-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-CSS-1572B6?style=flat-square&logo=css3&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![HTML](https://img.shields.io/badge/HTML-HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![Shell](https://img.shields.io/badge/Shell-Shell-89E051?style=flat-square&logo=gnubash&logoColor=white)
 ![Makefile](https://img.shields.io/badge/Makefile-Makefile-427819?style=flat-square&logo=makefile&logoColor=white)
