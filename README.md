@@ -127,22 +127,22 @@ class ManishBorikar:
 <tr>
 <td width="50%" valign="top">
 
+### [CodeAssess](https://github.com/manishborikar92/CodeAssess)
+> _No description provided._
+
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Stars](https://img.shields.io/github/stars/manishborikar92/CodeAssess?style=flat-square&color=f59e0b&logo=starship&logoColor=white) ![Forks](https://img.shields.io/github/forks/manishborikar92/CodeAssess?style=flat-square&color=6366f1&logo=git&logoColor=white) ![Commits](https://img.shields.io/badge/commits-40-7C3AED?style=flat-square&logo=git&logoColor=white)
+
+[![View](https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/CodeAssess)
+
+</td>
+<td width="50%" valign="top">
+
 ### [TinyLink](https://github.com/manishborikar92/TinyLink)
 > _No description provided._
 
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Stars](https://img.shields.io/github/stars/manishborikar92/TinyLink?style=flat-square&color=f59e0b&logo=starship&logoColor=white) ![Forks](https://img.shields.io/github/forks/manishborikar92/TinyLink?style=flat-square&color=6366f1&logo=git&logoColor=white) ![Commits](https://img.shields.io/badge/commits-35-7C3AED?style=flat-square&logo=git&logoColor=white)
 
 [![View](https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/TinyLink)
-
-</td>
-<td width="50%" valign="top">
-
-### [Regimen](https://github.com/manishborikar92/Regimen)
-> _No description provided._
-
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Stars](https://img.shields.io/github/stars/manishborikar92/Regimen?style=flat-square&color=f59e0b&logo=starship&logoColor=white) ![Forks](https://img.shields.io/github/forks/manishborikar92/Regimen?style=flat-square&color=6366f1&logo=git&logoColor=white) ![Commits](https://img.shields.io/badge/commits-31-7C3AED?style=flat-square&logo=git&logoColor=white)
-
-[![View](https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/Regimen)
 
 </td>
 </tr>
