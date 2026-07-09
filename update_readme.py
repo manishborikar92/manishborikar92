@@ -22,6 +22,12 @@ import re
 import sys
 from datetime import datetime, timezone
 
+# Force UTF-8 encoding for stdout/stderr to avoid UnicodeEncodeError on Windows
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8")
+
 import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
@@ -315,6 +321,45 @@ def replace_block(content: str, tag: str, new_body: str) -> str:
     # Reconstruct the document with the new block safely in the middle
     return f"{before_section}{start_marker}\n{new_body}\n{end_marker}{after_section}"
 
+def download_static_svgs(session: requests.Session):
+    """Downloads static SVG files from the stats endpoints to keep them locally cached."""
+    dir_name = "profile-stats"
+    os.makedirs(dir_name, exist_ok=True)
+
+    urls = {
+        "github-stats.svg": f"https://github-stats-extended.vercel.app/api?username={USERNAME}&show_icons=true&theme=midnight-purple&count_private=true&hide_border=true&bg_color=0d1117&title_color=A78BFA&icon_color=A78BFA&text_color=c9d1d9",
+        "github-top-langs.svg": f"https://github-stats-extended.vercel.app/api/top-langs/?username={USERNAME}&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=A78BFA&text_color=c9d1d9&langs_count=8",
+        "github-streak.svg": f"https://streak-stats.demolab.com?user={USERNAME}&theme=midnight-purple&hide_border=true&background=0d1117&stroke=A78BFA&ring=A78BFA&fire=F59E0B&currStreakLabel=A78BFA&sideLabels=A78BFA&dates=c9d1d9",
+        "github-activity-graph.svg": f"https://github-readme-activity-graph.vercel.app/graph?username={USERNAME}&bg_color=0d1117&color=A78BFA&line=7C3AED&point=F59E0B&area=true&hide_border=true"
+    }
+
+    print("\n📥 Downloading static SVG cards…")
+    for filename, url in urls.items():
+        filepath = os.path.join(dir_name, filename)
+        try:
+            print(f"   Downloading {filename}…")
+            r = session.get(url, timeout=20)
+            
+            if r.status_code == 200:
+                content = r.text
+                if "<svg" in content:
+                    # Check for error indicators in the SVG content
+                    lower_content = content.lower()
+                    error_keywords = ["error", "something went wrong", "please check your username", "rate limit", "limit exceeded"]
+                    if any(kw in lower_content for kw in error_keywords):
+                        print(f"   ⚠ WARNING: Rejected {filename} - Content contains error or rate limit message.")
+                    else:
+                        with open(filepath, "w", encoding="utf-8") as f:
+                            f.write(content)
+                        print(f"   ✅ Saved {filename}")
+                else:
+                    print(f"   ⚠ WARNING: Failed to save {filename} - Response content is not a valid SVG.")
+            else:
+                print(f"   ⚠ WARNING: Failed to download {filename} (HTTP Status {r.status_code})")
+        except Exception as e:
+            print(f"   ⚠ WARNING: Error downloading {filename} - {e}")
+
+
 # ─── Main ────────────────────────────────────────────────────────────────────
 
 def main():
@@ -352,6 +397,9 @@ def main():
         print("✅ README updated successfully.")
     except FileNotFoundError:
         print(f"❌ Could not find {README_PATH}. Make sure you are in the correct directory.", file=sys.stderr)
+
+    # Download and cache dynamic stats card SVGs locally
+    download_static_svgs(session)
 
 if __name__ == "__main__":
     main()

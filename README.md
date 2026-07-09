@@ -61,15 +61,16 @@ class ManishBorikar:
 <!-- SKILLS_START -->
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-CSS-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![HTML](https://img.shields.io/badge/HTML-HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
+![Batchfile](https://img.shields.io/badge/Batchfile-Batchfile-555555?style=flat-square&logo=batchfile&logoColor=white)
+![Inno Setup](https://img.shields.io/badge/Inno_Setup-Inno_Setup-555555?style=flat-square&logo=innosetup&logoColor=white)
 ![Shell](https://img.shields.io/badge/Shell-Shell-89E051?style=flat-square&logo=gnubash&logoColor=white)
-![Makefile](https://img.shields.io/badge/Makefile-Makefile-427819?style=flat-square&logo=makefile&logoColor=white)
-![Dockerfile](https://img.shields.io/badge/Dockerfile-Dockerfile-384D54?style=flat-square&logo=docker&logoColor=white)
 ![Handlebars](https://img.shields.io/badge/Handlebars-Handlebars-555555?style=flat-square&logo=handlebars&logoColor=white)
+![Dockerfile](https://img.shields.io/badge/Dockerfile-Dockerfile-384D54?style=flat-square&logo=docker&logoColor=white)
 
 </div>
 <!-- SKILLS_END -->
@@ -84,7 +85,7 @@ class ManishBorikar:
 <td width="50%" valign="top">
 
 ### [EnRouteAR](https://github.com/manishborikar92/EnRouteAR)
-> _No description provided._
+> Augmented Reality campus navigation for smartphones — powered by A-Frame, AR.js, and Mapbox.
 
 ![CSS](https://img.shields.io/badge/-CSS-1572B6?style=flat-square&logo=css3&logoColor=white) ![Stars](https://img.shields.io/github/stars/manishborikar92/EnRouteAR?style=flat-square&color=f59e0b&logo=starship&logoColor=white) ![Forks](https://img.shields.io/github/forks/manishborikar92/EnRouteAR?style=flat-square&color=6366f1&logo=git&logoColor=white) ![Commits](https://img.shields.io/badge/commits-287-7C3AED?style=flat-square&logo=git&logoColor=white)
 
@@ -106,7 +107,7 @@ class ManishBorikar:
 <td width="50%" valign="top">
 
 ### [Smart-Healthcare](https://github.com/manishborikar92/Smart-Healthcare)
-> _No description provided._
+> Smart Healthcare AI is a web application that classifies skin conditions from uploaded images using a custom-trained ResNet-50 v2 deep learning model. The model is hosted on Hugging Face Spaces and accessed directly from the browser via the Gradio client — no backend server or database is required.
 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Stars](https://img.shields.io/github/stars/manishborikar92/Smart-Healthcare?style=flat-square&color=f59e0b&logo=starship&logoColor=white) ![Forks](https://img.shields.io/github/forks/manishborikar92/Smart-Healthcare?style=flat-square&color=6366f1&logo=git&logoColor=white) ![Commits](https://img.shields.io/badge/commits-119-7C3AED?style=flat-square&logo=git&logoColor=white)
 
@@ -115,34 +116,34 @@ class ManishBorikar:
 </td>
 <td width="50%" valign="top">
 
-### [Pico](https://github.com/manishborikar92/Pico)
-> _No description provided._
+### [Pickleball](https://github.com/manishborikar92/Pickleball)
+> A production-grade, end-to-end court booking and player engagement platform tailored for Pickleball venues. The system features a responsive Next.js frontend, an Express.js/PostgreSQL backend abstracted via Prisma ORM, automated WhatsApp OTP authentication, and PhonePe payment integration.
 
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Stars](https://img.shields.io/github/stars/manishborikar92/Pico?style=flat-square&color=f59e0b&logo=starship&logoColor=white) ![Forks](https://img.shields.io/github/forks/manishborikar92/Pico?style=flat-square&color=6366f1&logo=git&logoColor=white) ![Commits](https://img.shields.io/badge/commits-68-7C3AED?style=flat-square&logo=git&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Stars](https://img.shields.io/github/stars/manishborikar92/Pickleball?style=flat-square&color=f59e0b&logo=starship&logoColor=white) ![Forks](https://img.shields.io/github/forks/manishborikar92/Pickleball?style=flat-square&color=6366f1&logo=git&logoColor=white) ![Commits](https://img.shields.io/badge/commits-77-7C3AED?style=flat-square&logo=git&logoColor=white)
 
-[![View](https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/Pico)
+[![View](https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/Pickleball)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### [TinyLink](https://github.com/manishborikar92/TinyLink)
-> _No description provided._
+### [Pico](https://github.com/manishborikar92/Pico)
+> An emotionally responsive AI desktop companion robot that sees, hears, and reacts like a pet. PICO communicates through expressive sounds, animated eyes on an OLED display, and head movements — creating a non-verbal, pet-like interaction experience similar to R2-D2 or Pokemon.
 
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Stars](https://img.shields.io/github/stars/manishborikar92/TinyLink?style=flat-square&color=f59e0b&logo=starship&logoColor=white) ![Forks](https://img.shields.io/github/forks/manishborikar92/TinyLink?style=flat-square&color=6366f1&logo=git&logoColor=white) ![Commits](https://img.shields.io/badge/commits-35-7C3AED?style=flat-square&logo=git&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Stars](https://img.shields.io/github/stars/manishborikar92/Pico?style=flat-square&color=f59e0b&logo=starship&logoColor=white) ![Forks](https://img.shields.io/github/forks/manishborikar92/Pico?style=flat-square&color=6366f1&logo=git&logoColor=white) ![Commits](https://img.shields.io/badge/commits-70-7C3AED?style=flat-square&logo=git&logoColor=white)
 
-[![View](https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/TinyLink)
+[![View](https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/Pico)
 
 </td>
 <td width="50%" valign="top">
 
-### [Regimen](https://github.com/manishborikar92/Regimen)
-> _No description provided._
+### [CodeAssess](https://github.com/manishborikar92/CodeAssess)
+> A professional-grade technical assessment platform for coding challenges with an integrated in-browser Python judge engine. Built with Next.js 16, React 19, Zustand, and Pyodide WebAssembly.
 
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Stars](https://img.shields.io/github/stars/manishborikar92/Regimen?style=flat-square&color=f59e0b&logo=starship&logoColor=white) ![Forks](https://img.shields.io/github/forks/manishborikar92/Regimen?style=flat-square&color=6366f1&logo=git&logoColor=white) ![Commits](https://img.shields.io/badge/commits-31-7C3AED?style=flat-square&logo=git&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Stars](https://img.shields.io/github/stars/manishborikar92/CodeAssess?style=flat-square&color=f59e0b&logo=starship&logoColor=white) ![Forks](https://img.shields.io/github/forks/manishborikar92/CodeAssess?style=flat-square&color=6366f1&logo=git&logoColor=white) ![Commits](https://img.shields.io/badge/commits-47-7C3AED?style=flat-square&logo=git&logoColor=white)
 
-[![View](https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/Regimen)
+[![View](https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/CodeAssess)
 
 </td>
 </tr>
@@ -156,13 +157,13 @@ class ManishBorikar:
 <div align="center">
 
 <a href="https://github.com/manishborikar92">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=manishborikar92&show_icons=true&theme=midnight-purple&count_private=true&hide_border=true&bg_color=0d1117&title_color=A78BFA&icon_color=A78BFA&text_color=c9d1d9" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=manishborikar92&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=A78BFA&text_color=c9d1d9&langs_count=8" />
+  <img height="180em" src="profile-stats/github-stats.svg" />
+  <img height="180em" src="profile-stats/github-top-langs.svg" />
 </a>
 
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=manishborikar92&theme=midnight-purple&hide_border=true&background=0d1117&stroke=A78BFA&ring=A78BFA&fire=F59E0B&currStreakLabel=A78BFA&sideLabels=A78BFA&dates=c9d1d9" alt="GitHub Streak" />
+<img src="profile-stats/github-streak.svg" alt="GitHub Streak" />
 
 </div>
 
@@ -171,7 +172,7 @@ class ManishBorikar:
 ## `> contributions --graph`
 
 <div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=manishborikar92&bg_color=0d1117&color=A78BFA&line=7C3AED&point=F59E0B&area=true&hide_border=true" width="100%" alt="Contribution Graph" />
+<img src="profile-stats/github-activity-graph.svg" width="100%" alt="Contribution Graph" />
 </div>
 
 ---
