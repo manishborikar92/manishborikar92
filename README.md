@@ -65,12 +65,12 @@ class ManishBorikar:
 ![Python](https://img.shields.io/badge/Python-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-CSS-1572B6?style=flat-square&logo=css3&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-PHP-555555?style=flat-square&logo=php&logoColor=white)
 ![HTML](https://img.shields.io/badge/HTML-HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
+![Blade](https://img.shields.io/badge/Blade-Blade-555555?style=flat-square&logo=blade&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
 ![Batchfile](https://img.shields.io/badge/Batchfile-Batchfile-555555?style=flat-square&logo=batchfile&logoColor=white)
 ![Inno Setup](https://img.shields.io/badge/Inno_Setup-Inno_Setup-555555?style=flat-square&logo=innosetup&logoColor=white)
-![Shell](https://img.shields.io/badge/Shell-Shell-89E051?style=flat-square&logo=gnubash&logoColor=white)
-![Handlebars](https://img.shields.io/badge/Handlebars-Handlebars-555555?style=flat-square&logo=handlebars&logoColor=white)
-![Dockerfile](https://img.shields.io/badge/Dockerfile-Dockerfile-384D54?style=flat-square&logo=docker&logoColor=white)
 
 </div>
 <!-- SKILLS_END -->
