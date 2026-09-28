@@ -64,9 +64,9 @@ class ManishBorikar:
 ![JavaScript](https://img.shields.io/badge/JavaScript-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-CSS-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-PHP-555555?style=flat-square&logo=php&logoColor=white)
 ![HTML](https://img.shields.io/badge/HTML-HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-CSS-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![Blade](https://img.shields.io/badge/Blade-Blade-555555?style=flat-square&logo=blade&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
 ![Batchfile](https://img.shields.io/badge/Batchfile-Batchfile-555555?style=flat-square&logo=batchfile&logoColor=white)
@@ -87,7 +87,7 @@ class ManishBorikar:
 ### [EnRouteAR](https://github.com/manishborikar92/EnRouteAR)
 > Augmented Reality campus navigation for smartphones — powered by A-Frame, AR.js, and Mapbox.
 
-![CSS](https://img.shields.io/badge/-CSS-1572B6?style=flat-square&logo=css3&logoColor=white) ![Stars](https://img.shields.io/github/stars/manishborikar92/EnRouteAR?style=flat-square&color=f59e0b&logo=starship&logoColor=white) ![Forks](https://img.shields.io/github/forks/manishborikar92/EnRouteAR?style=flat-square&color=6366f1&logo=git&logoColor=white) ![Commits](https://img.shields.io/badge/commits-287-7C3AED?style=flat-square&logo=git&logoColor=white)
+![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat-square&logo=html5&logoColor=white) ![Stars](https://img.shields.io/github/stars/manishborikar92/EnRouteAR?style=flat-square&color=f59e0b&logo=starship&logoColor=white) ![Forks](https://img.shields.io/github/forks/manishborikar92/EnRouteAR?style=flat-square&color=6366f1&logo=git&logoColor=white) ![Commits](https://img.shields.io/badge/commits-291-7C3AED?style=flat-square&logo=git&logoColor=white)
 
 [![View](https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/EnRouteAR)
 
