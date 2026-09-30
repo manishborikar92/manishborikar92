@@ -87,7 +87,7 @@ class ManishBorikar:
 ### [EnRouteAR](https://github.com/manishborikar92/EnRouteAR)
 > Augmented Reality campus navigation for smartphones — powered by A-Frame, AR.js, and Mapbox.
 
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Stars](https://img.shields.io/github/stars/manishborikar92/EnRouteAR?style=flat-square&color=f59e0b&logo=starship&logoColor=white) ![Forks](https://img.shields.io/github/forks/manishborikar92/EnRouteAR?style=flat-square&color=6366f1&logo=git&logoColor=white) ![Commits](https://img.shields.io/badge/commits-299-7C3AED?style=flat-square&logo=git&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Stars](https://img.shields.io/github/stars/manishborikar92/EnRouteAR?style=flat-square&color=f59e0b&logo=starship&logoColor=white) ![Forks](https://img.shields.io/github/forks/manishborikar92/EnRouteAR?style=flat-square&color=6366f1&logo=git&logoColor=white) ![Commits](https://img.shields.io/badge/commits-300-7C3AED?style=flat-square&logo=git&logoColor=white)
 
 [![View](https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/EnRouteAR)
 
