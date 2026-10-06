@@ -1,15 +1,22 @@
 name: Generate Contribution Snake
 
 on:
+  # Run once daily at 00:15 UTC (staggered after midnight)
   schedule:
-    - cron: "0 12 * * *"
+    - cron: "15 0 * * *"
+  # Manual trigger from Actions tab
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: snake-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   generate:
+    name: Refresh contribution snake
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
@@ -23,7 +30,7 @@ jobs:
             dist/github-snake-dark.svg?palette=github-dark
 
       - name: Push output to 'output' branch
-        uses: crazy-max/ghaction-github-pages@v4
+        uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: output
           build_dir: dist

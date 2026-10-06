@@ -1,26 +1,31 @@
 name: Update Dynamic README
 
 on:
-  # Run daily at 06:00 UTC
+  # Run daily at 00:00 UTC (midnight UTC)
   schedule:
-    - cron: "0 6 * * *"
+    - cron: "0 0 * * *"
   # Allow manual trigger from the Actions tab
   workflow_dispatch:
-  # Also run on every push to main (so edits to README template take effect)
+  # Run on push to main when README, script, or dependencies change
   push:
     branches: [main]
     paths:
       - "README.md"
       - "update_readme.py"
+      - "requirements.txt"
 
 permissions:
   contents: write
 
+concurrency:
+  group: readme-updater-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
-  # ── Job 1: Regenerate dynamic README sections ─────────────────────────────
   update-readme:
     name: Refresh projects & skills
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
       - name: Checkout repo
@@ -30,9 +35,10 @@ jobs:
         uses: actions/setup-python@v6
         with:
           python-version: "3.12"
+          cache: "pip"
 
       - name: Install dependencies
-        run: pip install requests
+        run: pip install -r requirements.txt
 
       - name: Run updater script
         env:
@@ -46,27 +52,3 @@ jobs:
           git add README.md profile-stats/
           git diff --staged --quiet || git commit -m "chore: auto-update README & stats [skip ci]"
           git push
-
-  # ── Job 2: Regenerate contribution snake ──────────────────────────────────
-  generate-snake:
-    name: Refresh contribution snake
-    runs-on: ubuntu-latest
-    # Run snake job in parallel with readme job
-    needs: []
-
-    steps:
-      - name: Generate snake SVGs
-        uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-
-      - name: Push snake to output branch
-        uses: crazy-max/ghaction-github-pages@v5
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

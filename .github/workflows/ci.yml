@@ -1,0 +1,47 @@
+name: CI & Quality Checks
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches:
+      - "**"
+      - "!main"
+    paths:
+      - "update_readme.py"
+      - "requirements*.txt"
+      - "tests/**"
+      - ".github/workflows/**"
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: Lint & Unit Tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements-dev.txt
+
+      - name: Lint with flake8
+        run: flake8 update_readme.py tests/ --count --max-line-length=120 --statistics
+
+      - name: Run unit tests
+        run: pytest
+
+      - name: Verify CLI dry-run
+        run: python update_readme.py --dry-run
