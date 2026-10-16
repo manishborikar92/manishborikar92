@@ -65,8 +65,8 @@ class ManishBorikar:
 ![Python](https://img.shields.io/badge/Python-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-![HTML](https://img.shields.io/badge/HTML-HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-CSS-1572B6?style=flat-square&logo=css3&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML-HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
 ![Shell](https://img.shields.io/badge/Shell-Shell-89E051?style=flat-square&logo=gnubash&logoColor=white)
 ![Dockerfile](https://img.shields.io/badge/Dockerfile-Dockerfile-384D54?style=flat-square&logo=docker&logoColor=white)
@@ -115,6 +115,18 @@ class ManishBorikar:
 </td>
 <td width="50%" valign="top">
 
+### [Vritta](https://github.com/manishborikar92/Vritta)
+> _No description provided._
+
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Stars](https://img.shields.io/badge/stars-0-f59e0b?style=flat-square&logo=starship&logoColor=white) ![Forks](https://img.shields.io/badge/forks-0-6366f1?style=flat-square&logo=git&logoColor=white) ![Commits](https://img.shields.io/badge/commits-98-7C3AED?style=flat-square&logo=git&logoColor=white)
+
+[![View](https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/Vritta)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 ### [Pickleball](https://github.com/manishborikar92/Pickleball)
 > A production-grade, end-to-end court booking and player engagement platform tailored for Pickleball venues. The system features a responsive Next.js frontend, an Express.js/PostgreSQL backend abstracted via Prisma ORM, automated WhatsApp OTP authentication, and PhonePe payment integration.
 
@@ -123,8 +135,6 @@ class ManishBorikar:
 [![View](https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/Pickleball)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### [Pico](https://github.com/manishborikar92/Pico)
@@ -133,16 +143,6 @@ class ManishBorikar:
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Stars](https://img.shields.io/badge/stars-0-f59e0b?style=flat-square&logo=starship&logoColor=white) ![Forks](https://img.shields.io/badge/forks-0-6366f1?style=flat-square&logo=git&logoColor=white) ![Commits](https://img.shields.io/badge/commits-70-7C3AED?style=flat-square&logo=git&logoColor=white)
 
 [![View](https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/Pico)
-
-</td>
-<td width="50%" valign="top">
-
-### [CodeAssess](https://github.com/manishborikar92/CodeAssess)
-> A professional-grade technical assessment platform for coding challenges with an integrated in-browser Python judge engine. Built with Next.js 16, React 19, Zustand, and Pyodide WebAssembly.
-
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Stars](https://img.shields.io/badge/stars-0-f59e0b?style=flat-square&logo=starship&logoColor=white) ![Forks](https://img.shields.io/badge/forks-0-6366f1?style=flat-square&logo=git&logoColor=white) ![Commits](https://img.shields.io/badge/commits-49-7C3AED?style=flat-square&logo=git&logoColor=white)
-
-[![View](https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/CodeAssess)
 
 </td>
 </tr>
