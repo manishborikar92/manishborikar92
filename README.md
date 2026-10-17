@@ -105,22 +105,22 @@ class ManishBorikar:
 <tr>
 <td width="50%" valign="top">
 
+### [Vritta](https://github.com/manishborikar92/Vritta)
+> _No description provided._
+
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Stars](https://img.shields.io/badge/stars-0-f59e0b?style=flat-square&logo=starship&logoColor=white) ![Forks](https://img.shields.io/badge/forks-0-6366f1?style=flat-square&logo=git&logoColor=white) ![Commits](https://img.shields.io/badge/commits-121-7C3AED?style=flat-square&logo=git&logoColor=white)
+
+[![View](https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/Vritta)
+
+</td>
+<td width="50%" valign="top">
+
 ### [Smart-Healthcare](https://github.com/manishborikar92/Smart-Healthcare)
 > Smart Healthcare AI is a web application that classifies skin conditions from uploaded images using a custom-trained ResNet-50 v2 deep learning model. The model is hosted on Hugging Face Spaces and accessed directly from the browser via the Gradio client — no backend server or database is required.
 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Stars](https://img.shields.io/badge/stars-0-f59e0b?style=flat-square&logo=starship&logoColor=white) ![Forks](https://img.shields.io/badge/forks-0-6366f1?style=flat-square&logo=git&logoColor=white) ![Commits](https://img.shields.io/badge/commits-119-7C3AED?style=flat-square&logo=git&logoColor=white)
 
 [![View](https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/Smart-Healthcare)
-
-</td>
-<td width="50%" valign="top">
-
-### [Vritta](https://github.com/manishborikar92/Vritta)
-> _No description provided._
-
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Stars](https://img.shields.io/badge/stars-0-f59e0b?style=flat-square&logo=starship&logoColor=white) ![Forks](https://img.shields.io/badge/forks-0-6366f1?style=flat-square&logo=git&logoColor=white) ![Commits](https://img.shields.io/badge/commits-98-7C3AED?style=flat-square&logo=git&logoColor=white)
-
-[![View](https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manishborikar92/Vritta)
 
 </td>
 </tr>
